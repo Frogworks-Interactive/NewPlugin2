@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OofPlugin", "OofPlugin\OofPlugin.csproj", "{DA7DD13A-A631-4BCB-A5C5-3A575B7A1B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewPlugin2", "NewPlugin2\NewPlugin2.csproj", "{DA7DD13A-A631-4BCB-A5C5-3A575B7A1B42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -38,6 +38,9 @@
 	<PropertyGroup Condition="'$(IsCI)' == 'true'">
 		<DalamudLibPath>$(HOME)/dalamud</DalamudLibPath>
 	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="DalamudPackager" Version="2.1.11" />
+	</ItemGroup>
 
 
 	<ItemGroup>
