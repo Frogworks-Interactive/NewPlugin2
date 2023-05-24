@@ -8,30 +8,16 @@ namespace OofPlugin
     public class Configuration : IPluginConfiguration
     {
         public int Version { get; set; } = 0;
-
-        public bool OofOnFall { get; set; } = true;
-        public bool OofOnDeath { get; set; } = true;
-
-        public bool OofOthersInParty { get; set; } = true;
-
-        public bool OofOthersInAlliance { get; set; } = true;
-
-
-        public float Volume { get; set; } = 0.5f;
-        public bool OofInBattle { get; set; } = true;
-
-        public string DefaultSoundImportPath { get; set; } = string.Empty;
-
+        public bool BooleanValue { get; set; } = true;
+        public float SliderFloat { get; set; } = 0.5f;
+        public string FileImportPath { get; set; } = string.Empty;
         // the below exist just to make saving less cumbersome
-
         [NonSerialized]
         private DalamudPluginInterface? pluginInterface;
-
         public void Initialize(DalamudPluginInterface pluginInterface)
         {
             this.pluginInterface = pluginInterface;
         }
-
         public void Save()
         {
             this.pluginInterface!.SavePluginConfig(this);

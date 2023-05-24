@@ -1,0 +1,14 @@
+﻿{
+  "Author": "Frogworks Interactive",
+  "Name": "NewPlugin2",
+  "Punchline": "i love tempates!!!",
+  "Description": "description",
+  "InternalName": "NewPlugin2",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin"
+  ],
+  "RepoUrl": "https://github.com/Frogworks-Interactive/NewPlugin2",
+  "AssemblyVersion": "0.0.0.1"
+
+}

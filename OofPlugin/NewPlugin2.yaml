@@ -1,0 +1,11 @@
+name: New Plugin 2
+author: Frogworks Interactive
+punchline: the best template of all time
+description: i love templates!!! 
+
+repo_url: https://github.com/Frogworks-Interactive/NewPlugin2
+internal_name: NewPlugin2
+dalamud_api_level: 8
+tags:
+  - new plugin
+  - its a new plugin
